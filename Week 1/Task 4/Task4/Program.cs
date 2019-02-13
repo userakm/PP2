@@ -10,17 +10,17 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());//create integer - number of lines
+            int n = int.Parse(Console.ReadLine());
 
-            for(int i=0; i<n; i++)//amount of lines
+            for(int i=0; i<n; i++)
             {
-                for(int j=1; j<=i+1; j++)//number of columns
+                for(int j=1; j<=i+1; j++)
                 {
-                    Console.Write("[*]");//this command helps us to write [*]
+                    Console.Write("[*]");
                 }
-                Console.WriteLine();//it switches to the next line
+                Console.WriteLine();
             }
-            Console.ReadLine();//terminal won't be closed, until you won't press any key to do so 
+            Console.ReadLine();
         }
     }
 }
