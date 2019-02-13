@@ -11,7 +11,7 @@ namespace Task_1
     {
         public static void palindrome()//creating a function 
         {
-            StreamReader sr = new StreamReader(@"C:\Users\Alibek\Desktop\pp2\Week 2\txt.txt");// it reads texts from txt files
+            StreamReader sr = new StreamReader(@"C:\Users\Alibek\Desktop\pp2\Week 2\Task 1\txt.txt");// it reads texts from txt files
             string a = sr.ReadLine();//input our string
             bool ch = true;//creating checker
             for(int i = 0; i < a.Length; i++)
